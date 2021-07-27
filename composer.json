@@ -1,20 +1,20 @@
 {
-    "name": "psamatt/service-bus-lite-bundle",
+    "name": "gmizera/service-bus-lite-bundle",
     "type": "symfony-bundle",
-    "description": "ServiceBus bundle implementation in Symfomy2",
-    "keywords": ["servicebus", "symfony2", "bundle"],
-    "homepage": "http://github.com/psamatt/ServiceBusLiteBundle",
+    "description": "ServiceBus bundle implementation updated for Symfomy 4",
+    "keywords": ["servicebus", "symfony4", "bundle"],
+    "homepage": "https://github.com/gmizera/service-bus-lite-bundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Matt Goodwin",
-            "email": "matt.goodwin491@gmail.com"
+            "name": "gmiz",
+            "email": "gmiz@gmiz.co"
         }
     ],
     "require": {
-        "php": ">=5.3.2",
-        "symfony/framework-bundle": "2.*",
-        "psamatt/service-bus-lite": "1.*"
+        "php": ">=7.4",
+        "symfony/framework-bundle": "4.*",
+        "gmizera/service-bus-lite": "1.*"
     },
     "target-dir": "Psamatt/ServiceBusLiteBundle",
     "minimum-stability": "dev",

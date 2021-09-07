@@ -5,5 +5,4 @@ services:
 
     ServiceBus.mediator:
         class: ServiceBus\Mediator
-        arguments: 
-            [@ServiceBus.handler]
+        arguments: ["@servicebus.handler"]

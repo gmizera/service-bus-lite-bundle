@@ -11,5 +11,4 @@ class PsamattServiceBusLiteBundle extends Bundle
         parent::build($container);
         $container->addCompilerPass(new DependencyInjection\Compiler\ServiceBusCompilerPass());
     }
-
 }

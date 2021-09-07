@@ -1,5 +1,7 @@
 # Service Bus Bundle
 
+Updated for use with Symfony 4.4
+
 Bundle that integrates [Service Bus](https://github.com/psamatt/ServiceBusLite) into Symfony2 through a bundle.
 
 ### Installation using Composer

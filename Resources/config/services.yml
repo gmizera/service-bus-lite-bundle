@@ -1,8 +1,8 @@
 services:
-    ServiceBus.handler:
+    servicebus.handler:
         class: ServiceBus\ServiceBusHandlerResolver
         public: false
 
-    ServiceBus.mediator:
+    servicebus.mediator:
         class: ServiceBus\Mediator
         arguments: ["@servicebus.handler"]

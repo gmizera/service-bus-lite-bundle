@@ -78,10 +78,10 @@ class FooController extends Controller
     public function indexAction()
     {
         // we send Commands
-        $this->get('ServiceBus.Mediator')->send(new FooCommand('myEventName'));
+        $this->get('servicebus.mediator')->send(new FooCommand('myEventName'));
         
         // we request Queries
-        $response = $this->get('ServiceBus.Mediator')->request(new FooQuery('myEventName'));
+        $response = $this->get('servicebus.mediator')->request(new FooQuery('myEventName'));
     }
 ```
 

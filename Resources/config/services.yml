@@ -4,5 +4,6 @@ services:
         public: false
 
     servicebus.mediator:
+        public: true
         class: ServiceBus\Mediator
         arguments: ["@servicebus.handler"]
